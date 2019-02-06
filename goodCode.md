@@ -17,4 +17,4 @@
   + 思考：不管是flux还是mvvm都是对mvc架构的延伸和扩展，重点是为了解决model层的厚重。在前端，model层很重。
   + 思考：vue一开始是和angular做了数据的双向绑定，但到了2之后，更偏向单向数据流，这是不是说vue2其实是mvc的设计？  
 + 那么问题来了，我们引入了框架还能不能再在代码中体现设计模式？比如vue是mvvm框架，我能否用mvc的思想写代码？写出的代码会不会更好？
-  + vue和react到底解决了什么问题呢？ 我认为是实现了一个高效率的mvc模式，让开发者专注于数据和视图，不必关心controller层。而区别在于controller层的实现方式不同，vue通过数据劫持和封装的事件语法糖如@click实现controller层，react通过发布订阅模式和封装的语法糖实现。其他的react实现了virtualDom，带来了性能[]和移植到其他平台的可能性(RN等等)，当然这是他们其他的特点，但重点是解决了c层。
+  + vue和react到底解决了什么问题呢？ 我认为是实现了一个高效率的mvc模式，让开发者专注于数据和视图，不必关心controller层。而区别在于controller层的实现方式不同，vue通过数据劫持和封装的事件语法糖如@click实现controller层，react通过发布订阅模式和封装的语法糖实现。其他的react实现了virtualDom，带来了性能[https://www.zhihu.com/question/31809713]和移植到其他平台的可能性(RN等等)，当然这是他们其他的特点，但重点是解决了c层。

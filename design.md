@@ -28,3 +28,17 @@
   }
   
   ```
+  + 答：vue的话
+  ```javascript
+    // 框架让我们简化了controller 简化了view层
+    let data = {}
+    new Vue({
+        data:data,
+        methods:{
+            add(){
+                data.a = 'a' // 直接操作data
+            }
+        }
+    })
+    
+    ```
